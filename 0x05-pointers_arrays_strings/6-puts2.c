@@ -6,6 +6,7 @@
  * @str: pass in a string
  * Return: Always 0.
  */
+
 void puts2(char *str)
 {
 	int i;
@@ -14,5 +15,5 @@ void puts2(char *str)
 	{
 		_putchar(str[i]);
 	}
-	_putchar('\n');
+	_putchar('\n')
 }

@@ -1,11 +1,10 @@
 #include "lists.h"
-#include <stdio.h>
+#include <stdlib.h>
+
 
 /**
- * listint_len: Returns the number of elements
- * in a linked list.
- *
- * @h: A pointer to the head of the list.
+ * listint_len - returns the number of elements in a linked list
+ * @h: pointer to the head of the pointer
  *
  * Return: The number of elements in the list.
  */
